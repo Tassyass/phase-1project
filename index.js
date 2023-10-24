@@ -15,7 +15,7 @@ function registerUser() {
     }
 }
 
-function findMatches(){
+function findMatches() {
     const currentUserId = userIdCounter - 1;
     const currentUser = users.find(user => user.id === currentUserId);
     if (!currentUser) return;
@@ -23,18 +23,18 @@ function findMatches(){
     const potentialMatches = users.filter(user => {
         return user.id !== currentUserId && user.age >= currentUser.age - 5 && user.age <= currentUser.age + 5;
     });
-}
 
-const matchesContainer = document.getElementById("matches");
-matchesContainer.innerHTML = "";
+    const matchesContainer = document.getElementById("matches");
+    matchesContainer.innerHTML = "";
 
-if (potentialMatches.length === 0) {
-    matchesContainer.innerHTML = "No matches found.";
-} else {
-    potentialMatches.forEach(match => {
-        const matchDiv = document.createElement("div");
-        matchDiv.innerText = `Name: ${match.name}, Age: ${match.age}, Interests: ${match.interests.join(", ")}`;
-        matchesContainer.appendChild(matchDiv);
-    });
+    if (potentialMatches.length === 0) {
+        matchesContainer.innerHTML = "No matches found.";
+    } else {
+        potentialMatches.forEach(match => {
+            const matchDiv = document.createElement("div");
+            matchDiv.innerText = `Name: ${match.name}, Age: ${match.age}, Interests: ${match.interests.join(", ")}`;
+            matchesContainer.appendChild(matchDiv);
+        });
+    }
 }
 
