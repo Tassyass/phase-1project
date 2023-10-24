@@ -9,7 +9,6 @@ MatchMate is a modern dating app designed to connect individuals based on their 
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
-- [API](#api)
 - [Contributing](#contributing)
 - [License](#license)
 
