@@ -46,4 +46,7 @@ h1 {
     background-color: aliceblue;
     padding: 10px;
     margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
  }
