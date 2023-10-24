@@ -38,3 +38,7 @@ h1 {
  button:hover {
     background-color: darkcyan;
  }
+ #matches {
+    text-align: left;
+    margin: 20px 0;
+ }
