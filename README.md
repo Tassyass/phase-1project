@@ -1,4 +1,4 @@
-# MatchMate - Dating App
+# Match-Mate in Heaven - Dating App
 
 MatchMate is a modern dating app designed to connect individuals based on their interests and age preferences. This README provides an overview of the project, its features, and instructions for setting up and running the application.
 
@@ -15,7 +15,7 @@ MatchMate is a modern dating app designed to connect individuals based on their 
 
 ## Features
 
-MatchMate offers the following features:
+Match-Mate in Heaven offers the following features:
 
 1. **User Registration and Profile Creation:**
    - Users can create an account by providing their name, age, interests, and a profile picture.
@@ -57,3 +57,7 @@ MatchMate offers the following features:
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md] file for details.
+
+
+## Author
+Tasniim Yasin
