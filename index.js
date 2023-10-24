@@ -16,5 +16,6 @@ function registerUser() {
 }
 
 function findMatches(){
-    
+    const currentUserId = userIdCounter - 1;
+    const currentUser = users.find(user => user.id === currentUserId);
 }
