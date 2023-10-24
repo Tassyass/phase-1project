@@ -18,4 +18,9 @@ function registerUser() {
 function findMatches(){
     const currentUserId = userIdCounter - 1;
     const currentUser = users.find(user => user.id === currentUserId);
+    if (!currentUser) return;
+
+    const potentialMatches = users.filter(user => {
+        return user.id !== currentUserId && user.age >= currentUser.age - 5 && user.age <= currentUser.age + 5;
+    });
 }
