@@ -14,3 +14,7 @@ function registerUser() {
         alert("Please fill in all fields.");
     }
 }
+
+function findMatches(){
+    
+}
