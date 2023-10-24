@@ -19,5 +19,6 @@ h1 {
  #registration, #matching {
     border: 1px solid wheat;
     background-color: #fff;
-
+    padding: 20px;
+    margin: 20px 0;
  }
