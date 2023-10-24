@@ -37,4 +37,4 @@ if (potentialMatches.length === 0) {
         matchesContainer.appendChild(matchDiv);
     });
 }
-}
+
