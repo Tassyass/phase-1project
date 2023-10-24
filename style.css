@@ -16,3 +16,6 @@ h1 {
     color: cornflowerblue;
     margin-bottom: 20px;
 }
+ #registration, #matching {
+    border: 1px solid wheat;
+ }
