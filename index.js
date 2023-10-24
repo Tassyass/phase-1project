@@ -24,3 +24,17 @@ function findMatches(){
         return user.id !== currentUserId && user.age >= currentUser.age - 5 && user.age <= currentUser.age + 5;
     });
 }
+
+const matchesContainer = document.getElementById("matches");
+matchesContainer.innerHTML = "";
+
+if (potentialMatches.length === 0) {
+    matchesContainer.innerHTML = "No matches found.";
+} else {
+    potentialMatches.forEach(match => {
+        const matchDiv = document.createElement("div");
+        matchDiv.innerText = `Name: ${match.name}, Age: ${match.age}, Interests: ${match.interests.join(", ")}`;
+        matchesContainer.appendChild(matchDiv);
+    });
+}
+}
