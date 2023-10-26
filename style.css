@@ -1,69 +1,127 @@
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #a7298c;
-    margin: 0;
-    padding: 0;
+body{
+    padding: 5px;
+}
+.mr-2{
+    padding-right: 10px;
+}
+#navbar{
+    background: rgb(2,0,36);
+background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(194,23,61,1) 25%, rgba(214,89,16,1) 93%);
+margin-bottom: 10px;
+}
+#searchbx{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#searchbtn{
+    margin-left: 10px;
+}
+.searchList{
+    max-width: 50vh;
 }
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
+.recipediv{
+    display: flex;
+    flex-direction: row;
+}
+
+.recipeimage{
+    max-width: 400px;
+    margin-bottom: 10px;
+}
+.list-item{
+    color:  rgba(2,0,36,1);;
+}
+
+.likeSect{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+}
+.CommentButton{
+    margin-top: 5px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+#wordingDiv{
+    padding-top: 45px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    padding: 20px;
 }
-
-h1 {
-    font-size: 32px;
-    color: #007BFF;
-    margin-bottom: 20px;
+.grid{
+    height: 500px;
+    background-color: red;
 }
-
-#registration, #matching {
-    border: 1px solid #ddd;
-    background-color: #fff;
-    padding: 20px;
-    margin: 20px 0;
-    border-radius: 5px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-}
-
-input {
-    width: 99%;
+.cardingDiv {
+    --bg: rgba(2,0,36,1);
+    position: relative;
+    padding: 9px;
+    background-color: var(--bg);
+    border-radius: 35px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+  
+  .card-ovly {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: repeating-conic-gradient(var(--bg) 0.0000001%, var(--grey) 0.000104%) 60% 60%/600% 600%;
+    filter: opacity(10%) contrast(105%);
+  }
+  
+  .card-in {
+    display: -webkit-box;
     padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-button {
-    background-color: #007BFF;
-    color: #fff;
-    padding: 12px 24px;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    max-height: 800px;
+    background-color: var(--contrast);
+    border-radius: 20px;
+    /* Content style */
+    font-size: 15px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    font-family: monospace;
+  }
+  .Likebutton {
     border: none;
+    outline: none;
+    background-color: #6c5ce7;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 700;  
+    color: #fff;
     border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.2s ease;
-}
-
-button:hover {
-    background-color: #344a61;
-}
-
-#matches {
-    text-align: left;
-    margin: 20px 0;
-}
-
-#matches div {
-    background-color: #f9f9f9;
-    padding: 10px;
-    margin: 10px 0;
+    transition: all ease 0.1s;
+    box-shadow: 0px 5px 0px 0px #a29bfe;
+  }
+  
+  .Likebutton:active {
+    transform: translateY(5px);
+    box-shadow: 0px 0px 0px 0px #a29bfe;
+  }
+  .CommentButton{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
     border-radius: 5px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease;
-}
-
-#matches div:hover {
-    transform: scale(1.02);
-}
+    transition: all ease 0.1s;
+    box-shadow: 0px 5px 0px 0px #a29bfe;
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(194,23,61,1) 25%, rgba(214,89,16,1) 93%);
+  }
+  .CommentButton:active {
+    transform: translateY(5px);
+    box-shadow: 0px 0px 0px 0px #a29bfe;
+  }
