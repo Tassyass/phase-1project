@@ -1,7 +1,6 @@
 Drink Finder by Ingredient
 ## Description
-The "Drink Finder by Ingredient" is a simple and user-friendly web application designed to help users discover various cocktail recipes based on the ingredients they have available. This project aims to make it easy for users to find and create delicious cocktails with the ingredients they already have in their kitchen or bar.
-
+The "Drink Finder by Ingredient" is a simple and user-friendly web application designed to help users discover various cocktail recipes based on the ingredients they have available. 
 ## Features
 Ingredient Search: Users can input ingredients they have, and the application will provide a list of cocktail recipes that can be created with those ingredients.
 
