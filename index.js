@@ -43,10 +43,7 @@ document.addEventListener(`DOMContentLoaded`, () => {
                 const drink = data.drinks[0]; // Get the first drink from the API 
                 // Update the recipeDiv with HTML content including drink details
                 recipeDiv.innerHTML = `
-                    <div class="cardingDiv">
-                        <div class="card-ovly"></div>
-                        <div class="card-in">
-                            <div>
+                    
                                 <h2>${drink.strDrink}</h2>
                                 <img src="${drink.strDrinkThumb}" alt="${drink.strDrink}" class="recipeimage">
                             </div>
