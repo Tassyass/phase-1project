@@ -1,62 +1,34 @@
-# Match-Mate in Heaven - Dating App
-
-MatchMate is a modern dating app designed to connect individuals based on their interests and age preferences. This README provides an overview of the project, its features, and instructions for setting up and running the application.
-
-## Table of Contents
-
-- [Features](#features)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
+Drink Finder by Ingredient
+## Description
+The "Drink Finder by Ingredient" is a simple and user-friendly web application designed to help users discover various cocktail recipes based on the ingredients they have available. 
 ## Features
+Ingredient Search: Users can input ingredients they have, and the application will provide a list of cocktail recipes that can be created with those ingredients.
 
-Match-Mate in Heaven offers the following features:
+Recipe Details: Users can click on a specific cocktail to view more details, including the recipe, ingredients, and preparation instructions.
 
-1. **User Registration and Profile Creation:**
-   - Users can create an account by providing their name, age, interests, and a profile picture.
+User-friendly Interface: The application offers an intuitive and visually appealing interface for a seamless user experience.
 
-2. **Swiping for Matching:**
-   - Users can swipe right to express interest or swipe left to dismiss profiles.
-   - Matches occur when two users swipe right on each other.
+## How to Use
+Homepage: Upon visiting the website, users will be presented with a clean and straightforward homepage.
 
-3. **Real-time Chat:**
-   - Matched users can initiate real-time chat conversations.
-   - Users can exchange text messages and possibly images within the chat.
+Search by Ingredient: Users can enter the ingredients they have in the search bar and press the "Search" button.
 
-4. **Viewing Matches:**
-   - Users can see their list of matched profiles for easy access.
+View Results: The application will display a list of cocktails that can be made with the provided ingredients.
 
-5. **Privacy Settings:**
-   - Users can control the visibility of their profile and manage who can send them messages.
+Explore Cocktails: Users can click on a cocktail to access detailed information, including the ingredients and preparation instructions.
 
-  ## instructions
-  1. Start the application by opening `index.html` in your web browser.
-  2. You will see that the user needs to input their information in order to register successfully.
-  3. Afterwards, they will click on the find matches button to find someone they are compatible with.
+## Technologies Used
+HTML, CSS, JavaScript: The front-end of the application is built using these technologies, providing a responsive and interactive design.
 
+Cocktail API: The application might utilize a cocktail recipe API to retrieve data about different cocktails and their ingredients.
 
-
-## Setup Instructions
-
-1. Clone this repository to your local machine.
-2. Open `index.html` in a web browser.
-3. Interact with the app as described in the instructions.
-
-## HTML, JavaScript, and CSS
-
-- The HTML file (`index.html`) contains the structure of the web page.
-- The JavaScript file (`script.js`) includes the code for handling data and user interactions.
-- The CSS file (`style.css`) provides styling for a better user experience.
-
+## Installation
+The "Drink Finder by Ingredient" is a web-based application and does not require installation. Users can access it through a web browser.
 
 ## License
-
-This project is licensed under the MIT License - see the [LICENSE.md] file for details.
-
+This project is open-source and available under the MIT License. You are free to use and modify it as needed. Please refer to the LICENSE file for more details.
 
 ## Author
 Tasniim Yasin
+
+Enjoy discovering new cocktails with the "Drink Finder by Ingredient"!
